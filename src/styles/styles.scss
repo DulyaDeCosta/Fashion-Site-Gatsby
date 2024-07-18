@@ -4,8 +4,43 @@ body {
 }
 
 /* Navbar Styles */
+.navbar {
+  background-color: #3d4247;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-header {
+  flex: 1;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
 .logo-container {
-  padding: 48px 0 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  max-width: 30px;
+  margin-right: 10px;
+}
+
+.navbar .navbar-collapse {
+  display: flex;
+  justify-content: flex-end; /* Align nav links to the right */
+  flex: 1;
 }
 
 .navbar a {
@@ -24,20 +59,10 @@ body {
   text-shadow: 0 0 20px rgba(255, 255, 255, 0.9), 0 0 40px rgba(255, 255, 255, 0.5);
 }
 
-/* Specific Navbar styles */
-.navbar {
-  background-color: #3d4247;
-  height: 70px;
-}
-
-.navbar .navbar-brand {
-  color: #ffffff;
-}
-
 .nav-link {
   padding: 0.5rem 1rem;
   color: rgba(255, 255, 255, 0.8);
-  font-weight: 550; /* Making nav link words thicker */
+  font-weight: 550;
   transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
@@ -47,7 +72,9 @@ body {
 }
 
 .navbar-nav {
-  margin-left: auto; /* Aligning nav links to the right */
+  margin-left: auto; 
+  display: flex;
+  align-items: center;
 }
 
 /* Responsive Navbar */
@@ -61,13 +88,22 @@ body {
   }
 }
 
+
+
 /* Footer Styles */
 .footer {
-  background-color: #3d4247;
   color: darkgray;
   text-align: center;
-  padding: 20px 0;
+  padding-left: 105px;
+  padding-right: 105px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: #3d4247;
+
 }
+
 
 .footer a {
   color: rgb(112, 110, 110);
@@ -79,3 +115,5 @@ body {
   color: #ffffff;
   text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.5);
 }
+
+
