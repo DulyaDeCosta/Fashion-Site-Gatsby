@@ -14,6 +14,15 @@ const ImageSlider = () => {
         <div className="carousel-item active">
           <StaticImage src="../images/slider-3-sm.jpg" alt="Slider Image 3" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
         </div>
+        <div className="carousel-item active">
+          <StaticImage src="../images/slider-4-sm.jpg" alt="Slider Image 4" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
+        </div>
+        <div className="carousel-item active">
+          <StaticImage src="../images/slider-5-sm.jpg" alt="Slider Image 5" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
+        </div>
+        <div className="carousel-item active">
+          <StaticImage src="../images/slider-6-sm.jpg" alt="Slider Image 6" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
+        </div>
       </div>
       <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
