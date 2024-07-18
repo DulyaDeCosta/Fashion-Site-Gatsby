@@ -1,76 +1,68 @@
 import React from 'react';
-import '../styles/styles.scss';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const CardSection = () => {
   return (
-    <div className="container my-5">
-      <div className="text-center my-4">
-        <h2>We make your dream dress a reality.</h2>
-      </div>
-      <div className="row">
-        <div className="col-md-6 col-lg-3 my-3">
-          <div className="card">
-            <div className="card-body text-center">
-              <h5 className="card-title">Wedding Frocks</h5>
-              <p className="card-text">Designed to brighten the most important day of your life, our wedding frocks simply adorn you.</p>
-              <a href="/wedding-frocks" className="btn btn-outline-dark">View Collection</a>
+    <div className="container">
+      <div className="card bg-white border-0">
+        <div className="card-title text-center my-3 font-satisfy font-size-lg font-italic">We make your dream dress a reality.</div>
+        <div className="row">
+          {/* Wedding Frocks */}
+          <div className="col-sm-12 col-md-6 my-3">
+            <div className="card border-0">
+              <div className="card-title text-center text-uppercase">Wedding Frocks</div>
+              <div className="card-body">
+                <p className="card-text font-weight-light">Designed to brighten the most important day of your life, our wedding frocks simply adorn you.</p>
+                <div className="text-center">
+                  <a href="/wedding-frocks" className="btn btn-padded btn-outline-dark text-uppercase">View Collection</a>
+                </div>
+                <StaticImage src="../images/wf-sm.jpg" alt="Wedding Frocks" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '600px', objectFit: 'cover' }} />
+              </div>
             </div>
-            <picture>
-              <source srcSet="/images/wf-lg.jpg" media="(min-width: 1200px)" />
-              <source srcSet="/images/wf-md.jpg" media="(min-width: 992px)" />
-              <img src="/images/wf-sm.jpg" alt="Wedding Frocks" className="card-img-bottom" />
-            </picture>
+          </div>
+          {/* Home Coming Frocks */}
+          <div className="col-sm-12 col-md-6 my-3">
+            <div className="card border-0">
+              <div className="card-title text-center text-uppercase">Home Coming Frocks</div>
+              <div className="card-body">
+                <p className="card-text font-weight-light">Each frock tells a unique story. What would you like yours to say?</p>
+                <div className="text-center">
+                  <a href="/home-coming-frocks" className="btn btn-padded btn-outline-dark text-uppercase">View Collection</a>
+                </div>
+                <StaticImage src="../images/1.jpg" alt="Home Coming Frocks" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '600px', objectFit: 'cover' }} />
+              </div>
+            </div>
+          </div>
+          {/* Going Away Frocks */}
+          <div className="col-sm-12 col-md-6 my-3">
+            <div className="card border-0">
+              <div className="card-title text-center text-uppercase">Frocks for Going Aways</div>
+              <div className="card-body">
+                <p className="card-text font-weight-light">Leave your old life behind in style.</p>
+                <div className="text-center">
+                  <a href="/going-away-frocks" className="btn btn-padded btn-outline-dark text-uppercase">View Collection</a>
+                </div>
+                <StaticImage src="../images/2.jpg" alt="Going Away Frocks" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '600px', objectFit: 'cover' }} />
+              </div>
+            </div>
+          </div>
+          {/* Pre-shoot Dresses */}
+          <div className="col-sm-12 col-md-6 my-3">
+            <div className="card border-0">
+              <div className="card-title text-center text-uppercase">Pre-shoot dresses</div>
+              <div className="card-body">
+                <p className="card-text font-weight-light">Add colour to your photos with our pre-shoot dress collection.</p>
+                <div className="text-center">
+                  <a href="/pre-shoot-dresses" className="btn btn-padded btn-outline-dark text-uppercase">View Collection</a>
+                </div>
+                <StaticImage src="../images/ps-sm.jpg" alt="Pre-shoot dresses" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '600px', objectFit: 'cover' }} />
+              </div>
+            </div>
           </div>
         </div>
-
-        <div className="col-md-6 col-lg-3 my-3">
-          <div className="card">
-            <div className="card-body text-center">
-              <h5 className="card-title">Wedding Frocks</h5>
-              <p className="card-text">Designed to brighten the most important day of your life, our wedding frocks simply adorn you.</p>
-              <a href="/wedding-frocks" className="btn btn-outline-dark">View Collection</a>
-            </div>
-            <picture>
-              <source srcSet="/images/wf-lg.jpg" media="(min-width: 1200px)" />
-              <source srcSet="/images/wf-md.jpg" media="(min-width: 992px)" />
-              <img src="/images/wf-sm.jpg" alt="Wedding Frocks" className="card-img-bottom" />
-            </picture>
-          </div>
-        </div>
-
-        <div className="col-md-6 col-lg-3 my-3">
-          <div className="card">
-            <div className="card-body text-center">
-              <h5 className="card-title">Wedding Frocks</h5>
-              <p className="card-text">Designed to brighten the most important day of your life, our wedding frocks simply adorn you.</p>
-              <a href="/wedding-frocks" className="btn btn-outline-dark">View Collection</a>
-            </div>
-            <picture>
-              <source srcSet="/images/wf-lg.jpg" media="(min-width: 1200px)" />
-              <source srcSet="/images/wf-md.jpg" media="(min-width: 992px)" />
-              <img src="/images/wf-sm.jpg" alt="Wedding Frocks" className="card-img-bottom" />
-            </picture>
-          </div>
-        </div>
-
-        <div className="col-md-6 col-lg-3 my-3">
-          <div className="card">
-            <div className="card-body text-center">
-              <h5 className="card-title">Wedding Frocks</h5>
-              <p className="card-text">Designed to brighten the most important day of your life, our wedding frocks simply adorn you.</p>
-              <a href="/wedding-frocks" className="btn btn-outline-dark">View Collection</a>
-            </div>
-            <picture>
-              <source srcSet="/images/wf-lg.jpg" media="(min-width: 1200px)" />
-              <source srcSet="/images/wf-md.jpg" media="(min-width: 992px)" />
-              <img src="/images/wf-sm.jpg" alt="Wedding Frocks" className="card-img-bottom" />
-            </picture>
-          </div>
-        </div>
-        
       </div>
     </div>
   );
-};
+}
 
 export default CardSection;
