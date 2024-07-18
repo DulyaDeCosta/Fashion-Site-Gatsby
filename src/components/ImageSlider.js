@@ -6,22 +6,22 @@ const ImageSlider = () => {
     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item">
-          <StaticImage src="../images/slider-1-sm.jpg" alt="Slider Image 1" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
+          <StaticImage src="../images/slider-1-lg.jpg" alt="Slider Image 1" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
         </div>
         <div className="carousel-item">
-          <StaticImage src="../images/slider-2-sm.jpg" alt="Slider Image 2" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
+          <StaticImage src="../images/slider-2-lg.jpg" alt="Slider Image 2" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
         </div>
         <div className="carousel-item active">
-          <StaticImage src="../images/slider-3-sm.jpg" alt="Slider Image 3" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
+          <StaticImage src="../images/slider-3-lg.jpg" alt="Slider Image 3" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
         </div>
         <div className="carousel-item active">
-          <StaticImage src="../images/slider-4-sm.jpg" alt="Slider Image 4" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
+          <StaticImage src="../images/slider-4-lg.jpg" alt="Slider Image 4" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
         </div>
         <div className="carousel-item active">
-          <StaticImage src="../images/slider-5-sm.jpg" alt="Slider Image 5" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
+          <StaticImage src="../images/slider-5-lg.jpg" alt="Slider Image 5" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
         </div>
         <div className="carousel-item active">
-          <StaticImage src="../images/slider-6-sm.jpg" alt="Slider Image 6" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
+          <StaticImage src="../images/slider-6-lg.jpg" alt="Slider Image 6" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '500px', objectFit: 'cover' }} />
         </div>
       </div>
       <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

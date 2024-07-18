@@ -4,46 +4,55 @@ body {
 }
 
 /* Navbar Styles */
-.navbar-brand img {
-  max-width: 32px;
-  margin-right: 10px;
+.logo-container {
+  padding: 48px 0 0 20px;
 }
 
 .navbar a {
-  color: rgb(128, 128, 128); 
-  text-shadow: none; 
-  transition: color 0.3s ease, text-shadow 0.3s ease; 
+  color: rgb(137, 137, 140);
+  text-shadow: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.navbar .navbar-brand span {
+  color: #ffffff; 
+  text-shadow: none;
 }
 
 .navbar a:hover {
-  color: #ffffff; 
-  text-shadow: 0 0 20px rgba(255, 255, 255, 0.9), 0 0 40px rgba(255, 255, 255, 0.5); 
+  color: #ffffff;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.9), 0 0 40px rgba(255, 255, 255, 0.5);
 }
 
 /* Specific Navbar styles */
 .navbar {
-  background-color: #383d42;
+  background-color: #3d4247;
+  height: 70px;
 }
 
 .navbar .navbar-brand {
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 .nav-link {
   padding: 0.5rem 1rem;
   color: rgba(255, 255, 255, 0.8);
-  transition: color 0.3s ease, text-shadow 0.3s ease; 
+  font-weight: 550; /* Making nav link words thicker */
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 .nav-link:hover {
-  color: #ffffff; 
-  text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.5); 
+  color: #ffffff;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.5);
+}
+
+.navbar-nav {
+  margin-left: auto; /* Aligning nav links to the right */
 }
 
 /* Responsive Navbar */
 @media (max-width: 991.98px) {
   .navbar-toggler {
-    border: none;
     background-color: rgba(255, 255, 255, 0.1);
   }
 
@@ -52,124 +61,21 @@ body {
   }
 }
 
-
 /* Footer Styles */
 .footer {
-  background-color: #383d42;
+  background-color: #3d4247;
   color: darkgray;
   text-align: center;
   padding: 20px 0;
 }
 
 .footer a {
-  color: rgb(112, 110, 110); /* Default link color */
-  text-shadow: none; /* No glow effect by default */
-  transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition */
+  color: rgb(112, 110, 110);
+  text-shadow: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 .footer a:hover {
-  color: #ffffff; /* Text color on hover */
-  text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.5); /* Glow effect on hover */
-}
-
-
-  
-
-// ImageSlider styles
-
-.carousel {
-  position: relative;
-  
-  .carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-
-    .carousel-item {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      opacity: 0;
-      transition: opacity 0.6s ease-in-out;
-
-      &.active {
-        opacity: 1;
-        z-index: 1;
-      }
-
-      picture {
-        display: block;
-        width: 100%;
-        height: 100%;
-
-        img {
-          display: block;
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-      }
-    }
-  }
-
-  .carousel-control-prev,
-  .carousel-control-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 40px;
-    height: 40px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
-    border: none;
-    cursor: pointer;
-
-    &:hover,
-    &:focus {
-      background-color: rgba(0, 0, 0, 0.8);
-      outline: none;
-    }
-
-    span {
-      display: inline-block;
-      width: 20px;
-      height: 20px;
-      background: no-repeat center center;
-      background-size: 100% 100%;
-    }
-  }
-
-  .carousel-control-prev {
-    left: 10px;
-
-    span {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-    }
-  }
-
-  .carousel-control-next {
-    right: 10px;
-
-    span {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-    }
-  }
-}
-
-// Screen reader only styles
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
+  color: #ffffff;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.5);
 }
