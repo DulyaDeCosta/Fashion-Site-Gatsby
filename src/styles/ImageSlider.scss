@@ -1,0 +1,22 @@
+.carousel-item {
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item.active {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.carousel-item.slide-left {
+  transform: translateX(-100%);
+}
+
+.carousel-item.slide-right {
+  transform: translateX(100%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+}

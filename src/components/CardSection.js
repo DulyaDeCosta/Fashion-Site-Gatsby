@@ -15,7 +15,7 @@ const CardSection = () => {
               <div className="card-body">
                 <p className="card-text font-weight-light">Designed to brighten the most important day of your life, our wedding frocks simply adorn you.</p>
                 <div className="text-center">
-                  <a href="/wedding-frocks" className="btn btn-padded btn-outline-dark text-uppercase">View Collection</a>
+                  <a href="/" className="btn btn-padded btn-outline-dark text-uppercase">View Collection</a>
                 </div>
                 <StaticImage src="../images/wf-sm.jpg" alt="Wedding Frocks" layout="fullWidth" placeholder="blurred" className="card-image" />
               </div>
@@ -28,7 +28,7 @@ const CardSection = () => {
               <div className="card-body">
                 <p className="card-text font-weight-light">Each frock tells a unique story. What would you like yours to say?</p>
                 <div className="text-center">
-                  <a href="/home-coming-frocks" className="btn btn-padded btn-outline-dark text-uppercase">View Collection</a>
+                  <a href="/" className="btn btn-padded btn-outline-dark text-uppercase">View Collection</a>
                 </div>
                 <StaticImage src="../images/1.jpg" alt="Home Coming Frocks" layout="fullWidth" placeholder="blurred" className="card-image" />
               </div>
@@ -41,7 +41,7 @@ const CardSection = () => {
               <div className="card-body">
                 <p className="card-text font-weight-light">Leave your old life behind in style.</p>
                 <div className="text-center">
-                  <a href="/going-away-frocks" className="btn btn-padded btn-outline-dark text-uppercase">View Collection</a>
+                  <a href="/" className="btn btn-padded btn-outline-dark text-uppercase">View Collection</a>
                 </div>
                 <StaticImage src="../images/2.jpg" alt="Going Away Frocks" layout="fullWidth" placeholder="blurred" className="card-image" />
               </div>
@@ -54,7 +54,7 @@ const CardSection = () => {
               <div className="card-body">
                 <p className="card-text font-weight-light">Add colour to your photos with our pre-shoot dress collection.</p>
                 <div className="text-center">
-                  <a href="/pre-shoot-dresses" className="btn btn-padded btn-outline-dark text-uppercase">View Collection</a>
+                  <a href="/" className="btn btn-padded btn-outline-dark text-uppercase">View Collection</a>
                 </div>
                 <StaticImage src="../images/ps-sm.jpg" alt="Pre-shoot dresses" layout="fullWidth" placeholder="blurred" className="card-image" />
               </div>

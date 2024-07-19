@@ -10,12 +10,12 @@ const Footer = () => {
       <div className="container py-3"> 
         <div className="row text-center">
           <div className="col"><Link className="nav-link text-white" to="/">Home</Link></div>
-          <div className="col"><Link className="nav-link text-white" to="/gallery">Gallery</Link></div>
-          <div className="col"><Link className="nav-link text-white" to="/wedding-frocks">Wedding</Link></div>
-          <div className="col"><Link className="nav-link text-white" to="/home-coming-frocks">Home Coming</Link></div>
-          <div className="col"><Link className="nav-link text-white" to="/going-away-frocks">Going Away</Link></div>
-          <div className="col"><Link className="nav-link text-white" to="/pre-shoot-dresses">Pre-shoot</Link></div>
-          <div className="col"><Link className="nav-link text-white" to="/contact-us">Contact Us</Link></div>
+          <div className="col"><Link className="nav-link text-white" to="/">Gallery</Link></div>
+          <div className="col"><Link className="nav-link text-white" to="/">Wedding</Link></div>
+          <div className="col"><Link className="nav-link text-white" to="/">Home Coming</Link></div>
+          <div className="col"><Link className="nav-link text-white" to="/">Going Away</Link></div>
+          <div className="col"><Link className="nav-link text-white" to="/">Pre-shoot</Link></div>
+          <div className="col"><Link className="nav-link text-white" to="/">Contact Us</Link></div>
         </div>
         <div className="row text-center my-2">
           <div className="col-sm-12 text-center text-white">
@@ -37,7 +37,7 @@ const Footer = () => {
           </div>                    
         </div>
         <div className="row my-2">
-          
+
           <div className="footer-text" style={{ color: 'darkgray' }}>
             <p>© {new Date().getFullYear()} Maxi Fashion House. All rights reserved.</p>
           </div>
