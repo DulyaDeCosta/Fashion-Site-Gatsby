@@ -80,10 +80,11 @@ Visit http://localhost:8000 to view the project.
 
 For a visual overview of the site, please refer to the provided screenshots.
 
-<img width="1470" alt="Screenshot 2024-07-19 at 09 06 18" src="https://github.com/user-attachments/assets/ba879bf8-4bd4-49c4-96e2-dc5acb982e47">
+<img width="1470" alt="Screenshot 2024-07-19 at 09 06 05" src="https://github.com/user-attachments/assets/99e5665c-f0ad-4e62-9bbc-ccde24527709">
 
 
 <img width="1470" alt="Screenshot 2024-07-19 at 09 06 12" src="https://github.com/user-attachments/assets/0cb512ad-d5d0-4521-9189-c5fe7a5b25dd">
 
 
-<img width="1470" alt="Screenshot 2024-07-19 at 09 06 05" src="https://github.com/user-attachments/assets/99e5665c-f0ad-4e62-9bbc-ccde24527709">
+<img width="1470" alt="Screenshot 2024-07-19 at 09 06 18" src="https://github.com/user-attachments/assets/ba879bf8-4bd4-49c4-96e2-dc5acb982e47">
+
