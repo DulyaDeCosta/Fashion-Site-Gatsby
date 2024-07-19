@@ -1,9 +1,10 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
+import '../styles/CardSection.scss'
 
 const CardSection = () => {
   return (
-    <div className="container">
+    <div className="container card-section-container">
       <div className="card bg-white border-0">
         <div className="card-title text-center my-3 font-satisfy font-size-lg font-italic">We make your dream dress a reality.</div>
         <div className="row">
@@ -16,7 +17,7 @@ const CardSection = () => {
                 <div className="text-center">
                   <a href="/wedding-frocks" className="btn btn-padded btn-outline-dark text-uppercase">View Collection</a>
                 </div>
-                <StaticImage src="../images/wf-sm.jpg" alt="Wedding Frocks" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '600px', objectFit: 'cover' }} />
+                <StaticImage src="../images/wf-sm.jpg" alt="Wedding Frocks" layout="fullWidth" placeholder="blurred" className="card-image" />
               </div>
             </div>
           </div>
@@ -29,7 +30,7 @@ const CardSection = () => {
                 <div className="text-center">
                   <a href="/home-coming-frocks" className="btn btn-padded btn-outline-dark text-uppercase">View Collection</a>
                 </div>
-                <StaticImage src="../images/1.jpg" alt="Home Coming Frocks" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '600px', objectFit: 'cover' }} />
+                <StaticImage src="../images/1.jpg" alt="Home Coming Frocks" layout="fullWidth" placeholder="blurred" className="card-image" />
               </div>
             </div>
           </div>
@@ -42,7 +43,7 @@ const CardSection = () => {
                 <div className="text-center">
                   <a href="/going-away-frocks" className="btn btn-padded btn-outline-dark text-uppercase">View Collection</a>
                 </div>
-                <StaticImage src="../images/2.jpg" alt="Going Away Frocks" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '600px', objectFit: 'cover' }} />
+                <StaticImage src="../images/2.jpg" alt="Going Away Frocks" layout="fullWidth" placeholder="blurred" className="card-image" />
               </div>
             </div>
           </div>
@@ -55,11 +56,12 @@ const CardSection = () => {
                 <div className="text-center">
                   <a href="/pre-shoot-dresses" className="btn btn-padded btn-outline-dark text-uppercase">View Collection</a>
                 </div>
-                <StaticImage src="../images/ps-sm.jpg" alt="Pre-shoot dresses" layout="fullWidth" placeholder="blurred" style={{ width: '100%', height: '600px', objectFit: 'cover' }} />
+                <StaticImage src="../images/ps-sm.jpg" alt="Pre-shoot dresses" layout="fullWidth" placeholder="blurred" className="card-image" />
               </div>
             </div>
           </div>
         </div>
+        <br></br><br></br>
       </div>
     </div>
   );

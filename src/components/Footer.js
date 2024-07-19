@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import logo from '../images/favicon/favicon-32x32.png';
+import fbLogo from '../images/favicon/fb-32x32.png'; 
+import twitterLogo from '../images/favicon/twitter-32x32.png'; 
 
 const Footer = () => {
   return (
     <footer className="footer bg-dark mt-auto">
-      <div className="container py-4">
+      <div className="container py-3"> 
         <div className="row text-center">
           <div className="col"><Link className="nav-link text-white" to="/">Home</Link></div>
           <div className="col"><Link className="nav-link text-white" to="/gallery">Gallery</Link></div>
@@ -26,18 +28,25 @@ const Footer = () => {
         </div>
         <div className="row text-center my-2">
           <div className="col">
-            <a href="/" className="no-text-decor" style={{ color: 'darkgray' }}>
-              <i className="fab fa-facebook fa-lg mx-2"></i>
+            <a href="/" className="no-text-decor">
+              <img src={fbLogo} alt="Facebook" className="social-icon mx-2" />
             </a>
-            <i className="fab fa-twitter fa-lg mx-2" style={{ color: 'darkgray' }}></i>
+            <a href="/" className="no-text-decor">
+              <img src={twitterLogo} alt="Twitter" className="social-icon mx-2" />
+            </a>
           </div>                    
         </div>
         <div className="row my-2">
-          <div className="col-sm-12 text-center" style={{ color: 'darkgray' }}>
-            <p style={{ color: 'darkgray' }}>© {new Date().getFullYear()} Maxi Fashion House. All rights reserved.<br />
-              </p><hr style={{ borderTop: '1px solid darkgray', filter: 'drop-shadow(0px 0px 3px white)' }} />
-              Designed &amp; developed by <a href="/">merovingienne</a>.
+          
+          <div className="footer-text" style={{ color: 'darkgray' }}>
+            <p>© {new Date().getFullYear()} Maxi Fashion House. All rights reserved.</p>
           </div>
+            <hr style={{ borderTop: '1px solid darkgray', filter: 'drop-shadow(0px 0px 3px white)' }} />
+
+          <div className="footer-text" style={{ color: 'darkgray' }}>
+            Designed &amp; developed by <a href="/">merovingienne</a>.
+          </div>
+
         </div>
       </div>
     </footer>
